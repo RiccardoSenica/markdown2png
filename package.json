@@ -1,0 +1,19 @@
+{
+  "name": "markdown2png",
+  "version": "1.0.0",
+  "description": "Convert Markdown files to PNG",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^4.3.0",
+    "puppeteer": "^21.0.0"
+  },
+  "devDependencies": {
+    "@types/marked": "^4.0.8",
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  }
+}
