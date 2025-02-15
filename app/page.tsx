@@ -73,7 +73,7 @@ export default function Home() {
           </h1>
           <p className="mt-2 text-sm text-gray-600">
             Convert your Markdown files into PNG images with GitHub-style
-            formatting.
+            formatting. Perfect for saving responses from AI assistants like Claude.ai into shareable images 😉
           </p>
         </div>
       </header>
