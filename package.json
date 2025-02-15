@@ -1,19 +1,40 @@
 {
   "name": "markdown2png",
-  "version": "1.0.0",
-  "description": "Convert Markdown files to PNG",
+  "version": "2.0.0",
+  "description": "PNG converter for Markdown files.",
+  "author": "riccardo@frompixels.com",
   "scripts": {
-    "dev": "ts-node src/index.ts"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --fix",
+    "format": "prettier --write .",
+    "typecheck": "tsc --noEmit"
   },
-  "license": "MIT",
   "dependencies": {
+    "highlight.js": "^11.8.0",
+    "html-to-image": "^1.11.11",
+    "lucide-react": "^0.475.0",
     "marked": "^4.3.0",
-    "puppeteer": "^21.0.0"
+    "next": "13.5.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
     "@types/marked": "^4.0.8",
-    "@types/node": "^18.15.11",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.0.3"
+    "@types/node": "^20.8.3",
+    "@types/react": "^18.2.25",
+    "@types/react-dom": "^18.2.11",
+    "@typescript-eslint/eslint-plugin": "^8.24.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.40.0",
+    "eslint-config-next": "13.5.4",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "postcss": "^8.4.31",
+    "prettier": "^3.5.1",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.2.2"
   }
 }
