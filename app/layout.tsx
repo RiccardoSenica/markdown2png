@@ -1,6 +1,6 @@
 import './globals.css';
-import type { Metadata } from 'next';
 import { Analytics } from "@vercel/analytics/next"
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Markdown to PNG Converter',
